@@ -41,7 +41,7 @@ class CreditsState extends MusicBeatState
 	{
 		#if desktop
 		// Updating Discord Rich Presence
-		DiscordClient.changePresence("In the Menus", null);
+		DiscordClient.changePresence("credo", null);
 		#end
 
 		persistentUpdate = true;
@@ -81,6 +81,10 @@ class CreditsState extends MusicBeatState
 		#end
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
+			['crack testers'], // because drug :ooo
+			['MyFnf',		'hapi',		'director ',								'https://twitter.com/myfnf1698',	'444444'],
+			['MemeHovy',			'hapi',			'programa',							'https://twitter.com/meme_hoovy',		'B42F71'],
+		    [''],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',								'https://twitter.com/Shadow_Mario_',	'444444'],
 			['RiverOaken',			'river',			'Main Artist/Animator of Psych Engine',							'https://twitter.com/RiverOaken',		'B42F71'],

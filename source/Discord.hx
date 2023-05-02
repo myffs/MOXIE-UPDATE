@@ -42,7 +42,7 @@ class DiscordClient
 	static function onReady()
 	{
 		DiscordRpc.presence({
-			details: "In the Menus",
+			details: "men", // cuz men kiss
 			state: null,
 			largeImageKey: 'icon',
 			largeImageText: "Psych Engine"
